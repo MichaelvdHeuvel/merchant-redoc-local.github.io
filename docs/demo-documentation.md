@@ -356,7 +356,7 @@ This endpoint has no request body.
 
 ```
 {
-  "url" : "http://localhost:54866/retailer/offers/export/eOSISxrMwgCGwSWHkmDoPDcGZqjxWRmuidRAotKSAdiQSdDPCKzFcfDDECGp.csv"
+  "url" : "http://localhost:57859/retailer/offers/export/eOSISxrMwgCGwSWHkmDoPDcGZqjxWRmuidRAotKSAdiQSdDPCKzFcfDDECGp.csv"
 }
 ```
 
@@ -2719,14 +2719,15 @@ Handle the return for order item 6107434013 with return id 86123452.
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "86123452",
   "eventType" : "HANDLE_RETURN_ITEM",
   "description" : "Handle the return item with return number 86123452",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:09.385+02:00",
+  "createTimestamp" : "2018-07-11T08:38:32.473+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -2773,14 +2774,15 @@ Handle the return for order item 6107434013 with return id 86129741.
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "86129741",
   "eventType" : "HANDLE_RETURN_ITEM",
   "description" : "Handle the return item with return number 86129741",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:09.41+02:00",
+  "createTimestamp" : "2018-07-11T08:38:32.502+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -2827,14 +2829,15 @@ Handle the return for order item 6107434013 with return id 86126399.
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "86224896",
   "eventType" : "HANDLE_RETURN_ITEM",
   "description" : "Handle the return item with return number 86224896",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:09.425+02:00",
+  "createTimestamp" : "2018-07-11T08:38:32.516+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -5308,13 +5311,14 @@ This request creates a new inbound shipment of goods for your Fulfillment by bol
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "eventType" : "CREATE_INBOUND",
   "description" : "Create an inbound with reference ZENDINGLVB1GVR.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:09.999+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.284+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -5897,14 +5901,15 @@ Cancel order item 6107434013 for order 7616222250.
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6107434013",
   "eventType" : "CANCEL_ORDER",
   "description" : "Cancel order item with id 6107434013.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.176+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.502+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -5951,14 +5956,15 @@ Cancel order item 6107331383 for order 7616222700.
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6107331383",
   "eventType" : "CANCEL_ORDER",
   "description" : "Cancel order item with id 6107331383.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.189+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.514+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6005,14 +6011,15 @@ Cancel order item 6107432387 for order 7616222700.
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6107432387",
   "eventType" : "CANCEL_ORDER",
   "description" : "Cancel order item with id 6107432387.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.203+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.527+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6059,14 +6066,15 @@ Cancel order item 6702312887 for order 4616526971.
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6702312887",
   "eventType" : "CANCEL_ORDER",
   "description" : "Cancel order item with id 6702312887.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.215+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.543+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6113,14 +6121,15 @@ Change transport information for order 7616222250
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "358612589",
   "eventType" : "CHANGE_TRANSPORT",
   "description" : "Change transport with id 358612589.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.245+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.579+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6167,14 +6176,15 @@ Change transport information for order 7616222700
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "356988715",
   "eventType" : "CHANGE_TRANSPORT",
   "description" : "Change transport with id 356988715.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.257+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.593+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6221,14 +6231,15 @@ Change transport information for order 7616222700
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "356988863",
   "eventType" : "CHANGE_TRANSPORT",
   "description" : "Change transport with id 356988863.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.269+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.608+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6277,14 +6288,15 @@ Create a shipment for order 7616222250
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6107434013",
   "eventType" : "CONFIRM_SHIPMENT",
   "description" : "Confirm shipment for order item 6107434013.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.293+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.635+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6333,14 +6345,15 @@ Create a shipment for order 7616222700
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6107434013",
   "eventType" : "CONFIRM_SHIPMENT",
   "description" : "Confirm shipment for order item 6107434013.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.305+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.653+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6389,14 +6402,15 @@ Create a shipment for order 7616222700
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6107432387",
   "eventType" : "CONFIRM_SHIPMENT",
   "description" : "Confirm shipment for order item 6107432387.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.317+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.665+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
 }
@@ -6442,414 +6456,17 @@ Create a shipment using a shipping-label for order 4616526971
 ```
 {
   "id" : 1,
+  "sellerId" : 999999999,
   "entityId" : "6702312887",
   "eventType" : "CONFIRM_SHIPMENT",
   "description" : "Confirm shipment for order item 6702312887.",
   "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.329+02:00",
+  "createTimestamp" : "2018-07-11T08:38:33.679+02:00",
   "links" : [ {
     "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
+    "href" : "http://localhost:57859/retailer/process-status/1",
     "method" : "GET"
   } ]
-}
-```
-
-
-
-# Generate a process-status 'SUCCESS'
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. To simulate retrieving a process-status you can use '2' in your process-status request to simulate a 'SUCCESS' status.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/2`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 2,
-  "entityId" : "555552",
-  "eventType" : "CANCEL_ORDER",
-  "description" : "This is a mocked process status.",
-  "status" : "SUCCESS",
-  "createTimestamp" : "2018-07-10T16:20:10.372+02:00"
-}
-```
-
-
-
-# Generate a process-status 'TIMEOUT'
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. To simulate retrieving a process-status you can use '3' in your process-status request to simulate a 'TIMEOUT' status.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/3`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 3,
-  "entityId" : "555553",
-  "eventType" : "CREATE_INBOUND",
-  "description" : "This is a mocked process status.",
-  "status" : "TIMEOUT",
-  "createTimestamp" : "2018-07-10T16:20:10.398+02:00",
-  "links" : [ {
-    "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/3",
-    "method" : "GET"
-  } ]
-}
-```
-
-
-
-# Generate a process-status 'FAILURE'
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. To simulate retrieving a process-status you can use '4' in your process-status request to simulate a 'FAILURE' status.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/4`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 4,
-  "entityId" : "555554",
-  "eventType" : "CHANGE_TRANSPORT",
-  "description" : "This is a mocked process status.",
-  "status" : "FAILURE",
-  "createTimestamp" : "2018-07-10T16:20:10.437+02:00",
-  "links" : [ {
-    "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/4",
-    "method" : "GET"
-  } ]
-}
-```
-
-
-
-# Generate a process-status 'PENDING'
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. To simulate retrieving a process-status you can use '1' in your process-status request to simulate a 'PENDING' status.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/1`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 1,
-  "entityId" : "555551",
-  "eventType" : "CONFIRM_SHIPMENT",
-  "description" : "This is a mocked process status.",
-  "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.515+02:00",
-  "links" : [ {
-    "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
-    "method" : "GET"
-  } ]
-}
-```
-
-
-
-# Generate a process-status 'PENDING' using entity id and event type
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. Use the following entity id and event type to simulate a 'PENDING' process-status: 555551 and CONFIRM_SHIPMENT.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/1`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 1,
-  "entityId" : "555551",
-  "eventType" : "CONFIRM_SHIPMENT",
-  "description" : "This is a mocked process status.",
-  "status" : "PENDING",
-  "createTimestamp" : "2018-07-10T16:20:10.564+02:00",
-  "links" : [ {
-    "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/1",
-    "method" : "GET"
-  } ]
-}
-```
-
-
-
-# Generate a process-status 'FAILURE' using entity id and event type
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. Use the following entity id and event type to simulate a 'FAILURE' process-status: 555554 and CHANGE_TRANSPORT.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/4`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 4,
-  "entityId" : "555554",
-  "eventType" : "CHANGE_TRANSPORT",
-  "description" : "This is a mocked process status.",
-  "status" : "FAILURE",
-  "createTimestamp" : "2018-07-10T16:20:10.578+02:00",
-  "links" : [ {
-    "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/4",
-    "method" : "GET"
-  } ]
-}
-```
-
-
-
-# Generate a process-status 'TIMEOUT' using entity id and event type
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. Use the following entity id and event type to simulate a 'TIMEOUT' process-status: 555553 and CREATE_INBOUND.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/3`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 3,
-  "entityId" : "555553",
-  "eventType" : "CREATE_INBOUND",
-  "description" : "This is a mocked process status.",
-  "status" : "TIMEOUT",
-  "createTimestamp" : "2018-07-10T16:20:10.617+02:00",
-  "links" : [ {
-    "rel" : "self",
-    "href" : "http://localhost:54866/retailer/process-status/3",
-    "method" : "GET"
-  } ]
-}
-```
-
-
-
-# Generate a process-status 'SUCCESS' using entity id and event type
-
-## Description
-
-The demo environment is static and can therefore not actually confirm shipments. To simulate retrieving a process-status you can use '2' in your process-status request to simulate a 'SUCCESS' status.
-
-### Request
-
-**Method:**     `GET`
-
-**Path:**       `/retailer/process-status/2`
-
-### Request Headers
-
-**Accept:**         `application/vnd.retailer.v3+json`
-
-**Content-Type**    `None`
-
-**Authorisation**   `Bearer -- content omitted --`
-
-### Request Body
-```
-This endpoint has no request body.
-```
-
-### Response Headers
-
-**Content-Type**    `application/vnd.retailer.v3+json`
-
-### Response Body
-
-**Response code**: `200`
-
-```
-{
-  "id" : 2,
-  "entityId" : "555552",
-  "eventType" : "CANCEL_ORDER",
-  "description" : "This is a mocked process status.",
-  "status" : "SUCCESS",
-  "createTimestamp" : "2018-07-10T16:20:10.651+02:00"
 }
 ```
 
